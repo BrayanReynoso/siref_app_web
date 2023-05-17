@@ -1,23 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import AppRouter from "./shared/components/AppRouter";
+import Sidebar from "./components/navigation/SidebarAdmin";
+import TableDataOne from "./components/tableData/TableDataOne";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div style={{ display: "flex", width: '50%' }}>
+      <div style={{ flex: 1 }}>
+        <Sidebar/>
+      </div>
+      <div style={{ flex: 1, display: "flex", justifyContent: "center" }}>
+        <TableDataOne/>
+      </div>
     </div>
   );
 }
