@@ -147,3 +147,21 @@ body {
 
     } 
   
+
+    .sidebar-options::-webkit-scrollbar {
+      width: 3px; /* Ancho del scrollbar */
+    }
+    
+    .sidebar-options::-webkit-scrollbar-track {
+      background: transparent; /* Color del fondo del scrollbar */
+    }
+    
+    .sidebar-options::-webkit-scrollbar-thumb {
+      background-color: #fff; /* Color del thumb (barra del scrollbar) */
+      border-radius: 5px; /* Borde redondeado del thumb */
+    }
+    
+    .sidebar-options::-webkit-scrollbar-thumb:hover {
+      background-color: rgba(0, 0, 0, 0.5); /* Color del thumb al pasar el cursor sobre él */
+    }
+    

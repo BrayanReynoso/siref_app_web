@@ -1,0 +1,88 @@
+/* Estilos de la estructura de la vista de inico de sesion */
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ebebeb;
+}
+
+.container-screen-login{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+ 
+}
+
+.login-form {
+  width: 450px;
+  height: 450px;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(55,66,74);
+}
+
+.login-logo-img{
+  flex: 1;
+  display: flex;
+  width: 450px;
+  height: 450px;
+  justify-content: center;
+  align-items: center;
+  background-color:#f57921;
+}
+
+.title-view{
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+/* estilos de los textos de la vista de inicio de sesion*/
+.title{
+  color: #f57921;
+  font-size: 30px;
+  white-space: pre-wrap;
+} 
+
+.title-n2{
+  color: #fff;
+  font-size: 20px;
+  white-space: pre-wrap;
+}
+
+.title-aling-form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Estilos del formulario de inico de sesion */
+.form-all{
+  margin: 30px;
+}
+.form-group{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.label-form-group{
+  color: #fff;
+  font-size: 18px;
+  text-align: left;
+  margin-top: 15px;
+}
+.form-control{
+  width: 350px;
+  
+}
+
+.btn-login{
+  background-color: #f57921;
+  border: #f57921;
+  margin-top: 20px; 
+  width: 150px;
+}
