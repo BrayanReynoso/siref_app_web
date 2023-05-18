@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Button, Collapse } from 'react-bootstrap';
-import './Sidebar.css';
+import './stylesScreens/Sidebar.css';
 import logo from '../../assets/img/logo_jorges.png';
 import { IoHomeOutline, IoCarSportOutline, IoBuildOutline, IoPersonCircleOutline } from 'react-icons/io5';
 

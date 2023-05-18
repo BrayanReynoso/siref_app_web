@@ -1,0 +1,93 @@
+.content {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+  }
+  
+  .navbar-user-container {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    background-color: #37424A;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+  }
+
+  .navbar-user-logo {
+    width: 20%;
+  }
+  /* divs */
+  div.navbar-user-text{
+    width:90%;
+
+  }
+
+  div.navbar-user-logo{
+    width:700px;
+  }
+  
+  .navbar-user-text {
+    color: white;
+    font-size: 20px;
+  }
+  
+  .navbar-user-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #37424A;
+  }
+  
+  .navbar-user-button .btn {
+    width: 150px;
+  
+  }
+  
+  .navbar-user-brand {
+    color: white;
+  }
+  
+  .navbar-user-search-form {
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+
+  }
+  
+  .navbar-user-search-input {
+    flex: 1;
+    border-radius: 15px;
+  }
+  
+  .navbar-user-search-btn {
+    width: 50px;
+  }
+  
+  .navbar-user-collapse {
+    text-align: center;
+  }
+  
+  .navbar-user-username {
+    text-align: center;
+  }
+  
+  /* Estilo adicional para el contenido debajo del Navbar */
+  .content {
+    margin-top: 60px;
+    /* Ajusta el valor del margen superior según tus necesidades */
+  }
+
+  .navbar-user-username {
+    margin-left: 50px; /* Ajusta el margen según tus necesidades */
+  }
+
+
+  
